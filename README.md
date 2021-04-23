@@ -28,7 +28,7 @@ Bringing up the Docker containers will open following ports in your computer (if
 ### 3. Run the application
 When you get the containers running you will be able to run the application locally in the following urls and ports:
 
-- **phpmyadmin** - [8080](http://localhost:8080)
-- **NodeJS API** - [9000](http://localhost:9000)
-- **React Todo App** - [3000](http://localhost:3000)
+- **phpmyadmin** - [http://localhost:8080](http://localhost:8080)
+- **NodeJS API** - [http://localhost:9000](http://localhost:9000)
+- **React Todo App** - [http://localhost:3000](http://localhost:3000)
 
