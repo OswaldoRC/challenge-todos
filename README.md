@@ -4,9 +4,16 @@
 ## Installation guide
 
 ### 1. Install dependencies
-To get started, make sure you have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your system, and then clone this repository.
+To get started, make sure you have [Docker](https://docs.docker.com/get-docker/), [Docker Compose](https://docs.docker.com/compose/install/) and [NodeJS](https://nodejs.org/es/) installed on your system, and then clone this repository.
 
-Run this command in order to build both images for frontend and backend
+Before building the containers you have to install backend dependencies using the following commands
+```sh
+$ cd backend
+$ npm install
+$ cd ..
+```
+
+Run this command in the root folder in order to build both images for frontend and backend
 ```sh
 $ docker-compose build
 ```
